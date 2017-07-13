@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>pizza</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Pizza toppings</h2>
+      </div>
+      <form id="toppings">
+        <div class="form-group">
+          <p>Choose your topping for .99 cents each</p>
+          <input type="checkbox" name="warning-signs" value="mushrooms"> mushrooms<br>
+          <input type="checkbox" name="warning-signs" value="cheese">cheese<br>
+          <input type="checkbox" name="warning-signs" value="pepperoni">pepperoni<br>
+          <input type="checkbox" name="warning-signs" value="full veggi">full veggi<br>
+        </div>
+
+        <div class="form-group">
+          <p>Size</p>
+          <input type="checkbox" name="health-symptons" value="personal size pizza"> personal size pizza<br>
+          <input type="checkbox" name="health-symptons" value="small">small<br>
+          <input type="checkbox" name="health-symptons" value="medium">medium<br>
+          <input type="checkbox" name="health-symptons" value="large">large<br>
+          <input type="checkbox" name="health-symptons" value="party size">party size<br>
+        </div>
+        <button type="submit">Submit Pizza Order</button>
+      </form>
+      <span id="topping-choices">
+        <p id="order"><b>You ordered:</b></p>
+      </span>
+      <br>
